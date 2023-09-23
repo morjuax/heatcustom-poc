@@ -11,7 +11,6 @@ async function fetchUsers() {
   const users = await fetchUsers()
   return (
     <div>
-      <h1 className="mb-3">Index Page</h1>
       <Users users={users}></Users>
     </div>
   )
